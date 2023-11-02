@@ -1,5 +1,5 @@
 {
-    "name": "zvps/royal-mail-shipping-rest-api-client",
+    "name": "xi0s/royal-mail-shipping-rest-api-client",
     "description": "Royal Mail Shipping REST API Client",
     "keywords": [
         "swagger",
@@ -7,7 +7,7 @@
         "sdk",
         "api"
     ],
-    "homepage": "https://github.com/zVPS/royal-mail-shipping-rest-api-client",
+    "homepage": "https://github.com/Xi0s/royal-mail-shipping-rest-api-client",
     "license": "proprietary",
     "authors": [
         {
@@ -20,16 +20,14 @@
         }
     ],
     "require": {
-        "php": ">=5.5",
+        "php": ">=7.2",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "^6.2"
+        "guzzlehttp/guzzle": "^7.8"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.8",
-        "squizlabs/php_codesniffer": "~2.6",
-        "friendsofphp/php-cs-fixer": "~1.12"
+        "phpunit/phpunit": "^10.0"
     },
     "autoload": {
         "psr-4": { "RoyalMail\\Shipping\\Rest\\Api\\" : "lib/" }
